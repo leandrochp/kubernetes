@@ -8,6 +8,6 @@ spec:
     app: simple-api
   ports:
     - protocol: TCP
-      port: 8085
+      port: 8084
       nodePort: 30526
       targetPort: porta-api
