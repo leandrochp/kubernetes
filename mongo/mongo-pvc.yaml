@@ -6,7 +6,7 @@ metadata:
   labels:
     role: database
 spec:
-  storageClassName: ""
+  storageClassName: ''
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce

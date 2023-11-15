@@ -10,7 +10,7 @@ spec:
       image: khaosdoctor/node-counter-api
       env:
         - name: PORT
-          value: "8080"
+          value: '8080'
         - name: COUNTER_DIRECTORY
           value: /etc/counter-volume
       ports:

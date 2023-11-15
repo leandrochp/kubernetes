@@ -10,7 +10,7 @@ spec:
       image: leandrochp/simple-node-api
       env:
         - name: PORT
-          value: "8080"
+          value: '8080'
       ports:
         - containerPort: 8080
           name: porta-api
