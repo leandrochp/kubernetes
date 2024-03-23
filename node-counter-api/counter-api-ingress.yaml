@@ -1,18 +1,18 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: counter-ing
+  name: counter-api-ing
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
 spec:
   rules:
-    - host: counter.info
+    - host: counterapi.info
     - http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: counter-svc
+                name: counter-api-svc
                 port:
                   number: 8086
