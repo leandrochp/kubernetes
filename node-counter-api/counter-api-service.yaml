@@ -8,6 +8,6 @@ spec:
     app: counter-api
   ports:
     - protocol: TCP
-      port: 8085
+      port: 8086
       nodePort: 30527
       targetPort: porta-api
