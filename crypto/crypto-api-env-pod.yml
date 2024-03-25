@@ -1,16 +1,16 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: crypto-env-api
+  name: crypto-api-env
   labels:
-    app: crypto-env-api
+    app: crypto-api-env
 spec:
   containers:
     - name: crypto-env
       image: khaosdoctor/node-crypto-api-env
       env:
         - name: PORT
-          value: '8080'
+          value: "8080"
         - name: CRYPTO_PASS
           valueFrom:
             secretKeyRef:
