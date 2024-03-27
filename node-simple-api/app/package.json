@@ -1,5 +1,5 @@
 {
-  "name": "simple-node-api",
+  "name": "node-simple-api",
   "version": "1.0.0",
   "description": "API simples em Node para responder uma requisição GET",
   "main": "index.js",
